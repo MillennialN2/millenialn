@@ -1,0 +1,79 @@
+body{
+    background:gray;
+    all:unset;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows:auto auto 5%;
+    width:100%;
+
+}
+.social{
+    display: none;
+}
+.logo-grid{
+    height:100vh;
+    background:url(../img/mobile-bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:0;
+    padding:0;
+}
+.main-grid{
+    min-height: 118vh;
+    display: grid;
+    grid-template-rows: 100%;
+    margin: 0;
+    padding:0;
+}
+.home-info{
+    /*
+    display:grid;
+    grid-template-rows: 65% 35%;
+    grid-auto-columns: auto;
+    */
+    display:flex;
+    flex-direction:column;
+    padding-left:10%;
+
+}
+.btn{
+    height:10vh;
+    width:50vw;
+}
+#pc-icon{
+    display: block;
+    width:75%;
+    height:100%;
+    background-size:contain;
+    background-position:center;
+}
+.logo{
+    height: 100%;
+    width: 100%;
+    background:url(../img/shaded_logo.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#ig-logo{
+    display: block;
+    background:url(../img/mobile-main-ig.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:40px;
+    width:40px;
+    margin-top: 1vh;
+    margin-left:4vw;
+    margin-right: 4vw;
+}
+#twi-logo{
+    display: block;
+    background:url(../img/mobile-main-twi.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:40px;
+    width:40px;
+    margin-top: 1vh;
+    margin-left:4vw;
+    margin-right: 4vw;
+}

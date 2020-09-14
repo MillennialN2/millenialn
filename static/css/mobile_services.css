@@ -1,0 +1,33 @@
+body{
+    all:unset;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    margin:0;
+    padding:0;
+}
+
+.header{
+    height:10vh;
+
+}
+
+.first-services{
+    height:160vh;
+    display: grid;
+    grid-template-rows: 80vh 80vh;
+    grid-template-columns: auto;
+}
+.mpc-services{
+    background:none;
+}
+.marketing-services{ 
+    width:100%;
+ }
+.last-services{
+    height: 80vh;
+    background:url(../img/services-bg3.svg);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+

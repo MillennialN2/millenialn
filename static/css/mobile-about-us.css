@@ -1,0 +1,11 @@
+.first-info{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: auto;
+    justify-content:center;
+    align-content:center;
+    height:min-content;
+    padding-left:10%;
+    padding-right:10%;
+    background:#e5e5e5;
+}

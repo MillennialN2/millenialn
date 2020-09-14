@@ -1,0 +1,121 @@
+body{
+    display: grid;
+    margin:0;
+    padding:0;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns:auto;
+    width: 100%;
+    height:100%;
+}
+.nav{
+    height:10vh;
+    background:#f2f2f2;
+}
+
+.header{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 10vh;
+    width: 100%;
+    background:#f2f2f2;
+    color:#00413b;
+}
+.first-services{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    height:80vh;
+}
+
+.web-services{
+    padding-top:5%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns:auto;
+    justify-content: center;
+    align-content: center; 
+    width: 100%;
+    background:url(../img/services-bg.svg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+#web-icon{
+    display: block;
+    width:100%;
+    height:100%;
+    background:url(../img/web-icon.svg);
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+.mpc-services{
+    padding-top: 5%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns:auto;
+    justify-content: center;
+    align-content: center;
+    width:100%;
+    background:url(../img/services-bg2.svg);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+#mpc-icon{
+    display: block;
+    width:100%;
+    height:100%;
+    background:url(../img/mpc-icon.svg);
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+.last-services{
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: auto;
+    height:60vh;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.marketing-services{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns:auto;
+    justify-content: center;
+    align-content: center;
+    width:100%;
+}
+#marketing-icon{
+    display: block;
+    width:100%;
+    height:100%;
+    background:url(../img/market-icon.svg);
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+#ig-logo{
+    display: block;
+    background:url(../img/mobile-main-ig.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:40px;
+    width:40px;
+    margin-top: 1vh;
+    margin-left:4vw;
+    margin-right: 4vw;
+}
+#twi-logo{
+    display: block;
+    background:url(../img/mobile-main-twi.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:40px;
+    width:40px;
+    margin-top: 1vh;
+    margin-left:4vw;
+    margin-right: 4vw;
+}
