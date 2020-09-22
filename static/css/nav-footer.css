@@ -163,6 +163,7 @@ a{
     all:unset;
     position: fixed;
     top:0%;
+    z-index: 2;
 }
 #nav-btn-checkbox:checked ~.nav-menu{
     height:60vh;
@@ -179,9 +180,8 @@ a{
     background:white;
     padding-top:2vh;
     padding-bottom:2vh;
-    box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.3);
     overflow:hidden;
-    transition: all cubic-bezier(1, 1.2, 0.7, 1) 2s;
+    transition: height cubic-bezier(1, 1.2, 0.7, 1) 2s;
 }
 
 .nav-menu li{
@@ -192,17 +192,17 @@ a{
 .nav-btn-container{
     display: block;
     height:10vh;
-    width:50px;
-    right:1%;
+    width:12vw;
+    right:2%;
     position: fixed;
-    top:1%;
+    top:3%;
     z-index: 3;
 }
 
 #nav-btn-icon{
     display:block;
     background-color:#666666;
-    height:2.3vh;
+    height:1.2vh;
     width:100%;
     transition: transform cubic-bezier(0.23, 1, 0.320, 1) 2s;
 }
@@ -212,7 +212,7 @@ a{
     background-color:inherit;
     position: relative;
     content: "";
-    top:3.8vh;
+    top:2.2vh;
     height:100%;
     width:100%;
     transition: opacity cubic-bezier(0.23, 1, 0.320, 1) 1s;
@@ -223,13 +223,13 @@ a{
     background-color:inherit;
     position:relative;
     content:"";
-    top:5.3vh;
+    top:3.2vh;
     height:100%;
     width:100%;
     transition: transform cubic-bezier(0.23, 1, 0.320, 1) 2s;
 }
 #nav-btn-checkbox:checked ~.nav-btn-container #nav-btn-icon{
-    transform: translate(0,3.6vh) rotate(45deg);
+    transform: translate(0,1.6vh) rotate(45deg);
 
 }
 #nav-btn-checkbox:checked ~.nav-btn-container #nav-btn-icon:before{
@@ -237,7 +237,7 @@ a{
 
 }
 #nav-btn-checkbox:checked ~.nav-btn-container #nav-btn-icon:after{
-    transform: translate(0,-7.50vh) rotate(90deg);
+    transform: translate(0,-4.50vh) rotate(90deg);
 }
 .footer{
     all:unset;
