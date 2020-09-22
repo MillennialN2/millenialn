@@ -7,10 +7,13 @@ body{
 }
 
 .header{
+    margin-top:12vh;
     height:10vh;
-
 }
 
+#logo{
+    display: none;
+}
 .first-services{
     height:160vh;
     display: grid;
