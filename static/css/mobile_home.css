@@ -52,7 +52,7 @@ body{
     grid-template-rows: 50% 50%;
     grid-template-columns: auto;
     height: 100vh;
-    background:white;
+    background:#333333;
 }
 .home-info{
     /*
