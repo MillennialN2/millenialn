@@ -1,6 +1,6 @@
 body{
     display:grid;
-    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
     grid-template-columns: 100%;
     margin:0;
     padding:0;
@@ -13,19 +13,31 @@ body{
     display: grid;
     justify-content: center;
     align-content: center;
-    height:10vh;
     background:#e5e5e5;
 }
 .first-info{
     display: grid;
-    grid-template-rows: auto;
+    grid-template-rows: auto auto;
     grid-template-columns: 50% 50%;
     justify-content:center;
     align-content:center;
-    height:36vh;
+    height:100vh;
     padding-left:10%;
     padding-right:10%;
-    background:#e5e5e5;
+    background:url(../img/bg3.JPG);
+    background-size: cover;
+
+    
+}
+.info-div {
+    padding: 8%;
+    background: rgba(255,255,255,0.4);
+    margin: 2%;
+    box-shadow: 3px 2px 2px 0 rgba(255,255,255,0.1c);
+
+}
+.info-div p{
+    color:#333333;
 }
 .second-info{
     display:grid;
@@ -42,19 +54,34 @@ body{
     display: grid;
     grid-template-rows: auto auto;
     grid-template-columns: auto;
-    justify-content: center;
-    align-content: center;
-    height: 50vh;
-    padding-left:10%;
-    padding-right:10%;
+    align-items: center;
+    justify-items: center;
+    height: min-content;
+    width: 96%;
+    padding-left:2%;
+    padding-right:2%;
+    padding-bottom:5%;
 }
 .executives-div{
     display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: auto auto auto;
+    grid-template-rows: 100%;
+    grid-template-columns: 33% 34% 33%;
+    justify-items: center;
     justify-content: center;
-    align-content:center;
-
+    align-content: center;
+    align-items:center;
+    width:80%;
+}
+.executive {
+    display: grid;
+    grid-template-rows: auto auto;
+    background:#e5e5e5;
+    align-items: center;
+    justify-items: center;
+    width: 80%;
+    height: 100%;
+    padding:2%;
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.4);
 }
 .footer{
     height:20vh;

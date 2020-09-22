@@ -8,24 +8,47 @@ body{
     height:100%;
 }
 .nav{
-    height:10vh;
-    background:#f2f2f2;
+    height:12vh;
+    background:#333333;
 }
 
+#logo{
+
+    display: block;
+    height:80px;
+    width:120px;
+    background:url(../img/light_logo.svg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left:3%;
+    top:2%;
+
+}
+.nav a{
+    color:#e1e1e1;
+    font-size:medium;
+}
 .header{
     display: grid;
     justify-content: center;
     align-content: center;
     height: 10vh;
     width: 100%;
-    background:#f2f2f2;
-    color:#00413b;
+    background:#333333;
+}
+.header h1{
+    color:#e1e1e1;
 }
 .first-services{
     display:grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: auto;
     height:80vh;
+    background:#333333;
+    overflow:hidden;
+    animation: fade_height 2s;
+    box-shadow: 4px 2px 2px 0px rgba(0,0,0,0.5);
 }
 
 .web-services{
@@ -36,10 +59,24 @@ body{
     justify-content: center;
     align-content: center; 
     width: 100%;
-    background:url(../img/services-bg.svg);
     background-size: cover;
     background-position: left;
     background-repeat: no-repeat;
+
+}
+.web-services h2{
+    color: #e1e1e1;
+}
+.web-services p{
+    color:#898989;
+}
+.web-items{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding:0;
+    margin:0;
+    color:#898989;
 }
 #web-icon{
     display: block;
@@ -57,11 +94,19 @@ body{
     justify-content: center;
     align-content: center;
     width:100%;
-    background:url(../img/services-bg2.svg);
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
 }
+
+.mpc-services h2{
+    color:#e1e1e1;
+}
+
+.mpc-services p{
+    color:#898989;
+}
+
 #mpc-icon{
     display: block;
     width:100%;
@@ -70,31 +115,38 @@ body{
     background-size:contain;
     background-repeat:no-repeat;
 }
+
+
 .last-services{
     display: grid;
     grid-template-rows: 100%;
     grid-template-columns: auto;
-    height:60vh;
+    height:80vh;
     width: 100%;
     justify-content: center;
     align-content: center;
+    box-shadow: 4px 4px 2px 4px rgba(0,0,0,0.9);
 }
 
 .marketing-services{
     display: grid;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 50% auto;
     grid-template-columns:auto;
+    justify-items: center;
     justify-content: center;
     align-content: center;
+    align-items: center;
     width:100%;
+
 }
 #marketing-icon{
     display: block;
-    width:100%;
+    width:50%;
     height:100%;
     background:url(../img/market-icon.svg);
     background-size:contain;
     background-repeat:no-repeat;
+    align-self: center;
 }
 
 #ig-logo{
@@ -118,4 +170,14 @@ body{
     margin-top: 1vh;
     margin-left:4vw;
     margin-right: 4vw;
+}
+
+@keyframes fade_height{
+    0%{
+        height: 40vh;
+    }
+
+    100%{
+        height: 80vh;
+    }
 }

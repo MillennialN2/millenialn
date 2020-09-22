@@ -1,0 +1,67 @@
+body{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto;
+    margin:0;
+    padding:0;
+}
+
+.nav{
+    height:10vh;
+}
+.portfolio-container
+{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto;
+    margin:0;
+    padding:2%;
+
+}
+
+
+.header{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height:10vh;
+}
+
+#port-logo-1{
+    height:30vh;
+    width:20vw;
+    background:gray;
+
+}
+
+#port-logo-2{
+    height:30vh;
+    width:20vw;
+    background:gray;
+    
+}
+
+#port-logo-3{
+    height:30vh;
+    width:20vw;
+    background:gray;    
+}
+.info-container{
+    width:100%;
+}
+
+.portfolio-div{
+   display: grid;
+   grid-template-rows: auto;
+   grid-template-columns:33% 33% 33%;
+    width:100%;
+    align-content:center;
+    align-items: center;
+    justify-items: center;
+   height: 60vh;
+ 
+}
+
+.footer{
+    height:20vh;
+}
