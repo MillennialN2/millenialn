@@ -1,6 +1,15 @@
 body{
     all:unset;
 }
+#logo{
+    display: none;
+}
+.header{
+    margin: 23vh;
+}
+.first-info h1{
+    margin-top:12vh;
+}
 .first-info{
     display: flex;
     flex-direction: column;
@@ -40,4 +49,7 @@ body{
     display: flex;
     flex-direction:row;
 
+}
+.footer{
+    height:30vh;
 }

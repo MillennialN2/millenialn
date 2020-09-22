@@ -108,3 +108,26 @@ body{
     background:gray;
     border-radius: 100%;
 }
+
+#ig-logo{
+    display: block;
+    background:url(../img/mobile-main-ig.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:40px;
+    width:40px;
+    margin-top: 1vh;
+    margin-left:4vw;
+    margin-right: 4vw;
+}
+#twi-logo{
+    display: block;
+    background:url(../img/mobile-main-twi.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:40px;
+    width:40px;
+    margin-top: 1vh;
+    margin-left:4vw;
+    margin-right: 4vw;
+}
