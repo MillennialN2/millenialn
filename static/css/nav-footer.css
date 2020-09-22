@@ -163,25 +163,28 @@ a{
     all:unset;
     position: fixed;
     top:0%;
-    z-index: 2;
+    z-index: 3;
 }
 #nav-btn-checkbox:checked ~.nav-menu{
     height:60vh;
+    padding-top:2vh;
+    padding-bottom:2vh;
 }
 
 .nav-menu {
     all:unset;
     display: grid;
     list-style: none;
-    height: 8vh;
+    height: 0vh;
     width: 100vw;
     justify-content: center;
     align-content: center;
-    background:white;
-    padding-top:2vh;
-    padding-bottom:2vh;
     overflow:hidden;
+    background:white;
+    padding-top:0vh;
+    padding-bottom:0vh;
     transition: height cubic-bezier(1, 1.2, 0.7, 1) 2s;
+    z-index:1;
 }
 
 .nav-menu li{
@@ -255,4 +258,5 @@ a{
 .more-info{
     display: none;
 }
+
 }
