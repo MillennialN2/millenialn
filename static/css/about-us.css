@@ -8,12 +8,25 @@ body{
 .nav{
     height:10vh;
     background:#e5e5e5;
+    color:#454545;
 }
 .header{
     display: grid;
     justify-content: center;
     align-content: center;
     background:#e5e5e5;
+}
+.executive-info h4{
+    color:#00413b;
+}
+.executive-info h3{
+    color:#00413b;
+}
+#logo{
+    width: 8vw;
+    height:10vh;
+    margin-top:0;
+    top:0;
 }
 .first-info{
     display: grid;

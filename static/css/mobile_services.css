@@ -16,10 +16,12 @@ body{
 }
 
 .header{
-    margin-top:12vh;
+    margin-top:10vh;
     height:10vh;
 }
-
+.nav{
+    height: 10vh;
+}
 #logo{
     display: none;
 }

@@ -26,7 +26,10 @@ body{
     display: grid;
     grid-template-rows: 10% 90%;
     grid-template-columns: auto;
-    background:#333333;
+    
+    background:url(../img/bg3.JPG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     overflow: hidden;
     animation: fade 2s;
     z-index: 0;
@@ -36,7 +39,7 @@ body{
     display: grid;
     grid-template-rows: 50% 50%;
     grid-template-columns: auto;
-    
+       
 }
 
 .home-icon{
