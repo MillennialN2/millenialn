@@ -158,17 +158,6 @@ body{
     padding-left:10%;
 }
 
-.info h1{
-    color: #e1e1e1;
-}
-
-.info p{
-    color:#717171;
-}
-
-.btn-container{
-
-}
 .twi{
     display: -ms-grid;
     display: grid;
@@ -204,7 +193,6 @@ body{
     height:50%;
     background:#177660;
     border-style: none;
-    color:white;
     font-size: 160%;
     border-radius:1vh;
 }

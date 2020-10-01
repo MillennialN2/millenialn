@@ -11,11 +11,6 @@
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
 */
-
-p{
-    color:#4d4d4d;
-    font-size: x-small;
-}
 a{
     text-decoration: none;
     color:inherit;
@@ -109,10 +104,11 @@ body > *:nth-child(2){
 }
 .info h1{
     font-size:3vh;
-    color:#ffffff;
+    color:inherit;
 }
 .info p{
-    font-size:3vh
+    font-size:3vh;
+    color:inherit;
 }
 .btn{
     height:150%;
