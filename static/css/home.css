@@ -187,7 +187,9 @@ body > *:nth-child(1){
             align-items:center;
     margin:1vh;
 }
-
+p{
+    color:white;
+}
 .btn{
     display: block;
     width:30%;
