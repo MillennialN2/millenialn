@@ -108,7 +108,7 @@ body > *:nth-child(2){
 }
 .info p{
     font-size:3vh;
-    color:inherit;
+    color:#ffffff;
 }
 .btn{
     height:150%;
