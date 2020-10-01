@@ -114,6 +114,7 @@ body > *:nth-child(2){
     height:150%;
     width:50%;
     font-size:3vh;
+    color:#ffffff;
 }
 #pc-icon{
     display: block;
