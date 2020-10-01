@@ -12,15 +12,6 @@
 * Browsers: last 4 version
 */
 
-h1{
-    color:#00413b;
-    font-size: 100%;
-}
-h2{
-    color:#00413b;
-    font-size: x-large;
-}
-
 p{
     color:#4d4d4d;
     font-size: x-small;
@@ -118,6 +109,7 @@ body > *:nth-child(2){
 }
 .info h1{
     font-size:3vh;
+    color:white;
 }
 .info p{
     font-size:3vh
