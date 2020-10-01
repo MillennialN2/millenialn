@@ -4,17 +4,6 @@
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
 */
-
-h1{
-    color:#00413b;
-}
-h2{
-    color:#00413b;
-}
-
-p{
-    color:#4d4d4d;
-}
 a{
     text-decoration: none;
     color:inherit;
