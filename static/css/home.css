@@ -19,9 +19,20 @@ body{
 #logo{
     display: block;
     background: url(../img/shaded_logo1.svg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     height:100%;
     width:100%;
+}
+#pc-icon{
+    display: block;
+    height: 50vh;
+    background:url(../img/mpc-icon.svg);
+    background-size: contain;
+   background-repeat: no-repeat;
+    background-position: center;
+ 
 }
 section{
     background:#333333;
