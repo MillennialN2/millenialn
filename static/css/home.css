@@ -10,14 +10,11 @@ body{
     overflow:hidden;
 }
 .logo-grid{
-    display: grid;
-    grid-template-rows:  90% 10%;
-    grid-template-columns: auto;
     height: 100vh;
+    background:#333333;
 }
 .social{
-    background:blue;
-    height: 100%;
+    display: none;
 }
 #logo{
     display: block;
@@ -25,4 +22,12 @@ body{
     background-size: cover;
     height:100%;
     width:100%;
+}
+section{
+    background:#333333;
+}
+.home-footer{
+    display: block;
+    height:10vh;
+    background:#333333;
 }
