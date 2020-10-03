@@ -37,6 +37,14 @@ body{
 section{
     background:#333333;
 }
+section h1{
+    font-size: 0.85em;
+    color:white;
+}
+section p{
+    font-size: 0.7em;
+    color:#e1e1e1;
+}
 .home-footer{
     display: block;
     height:10vh;
