@@ -1,5 +1,5 @@
 /*
-* Prefixed by https://autoprefixer.github.io
+d* Prefixed by https://autoprefixer.github.io
 * PostCSS: v7.0.29,
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
@@ -312,4 +312,64 @@ body{
     100%{
         height: 80vh;
     }
+}
+@media only screen and (max-width:720px){
+    /*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+body{
+    all:unset;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    margin:0;
+    padding:0;
+}
+
+.header{
+    margin-top:10vh;
+    height:10vh;
+}
+.nav{
+    height: 10vh;
+}
+#logo{
+    display: none;
+}
+.first-services{
+    height:160vh;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 80vh 80vh;
+    grid-template-rows: 80vh 80vh;
+    -ms-grid-columns: auto;
+    grid-template-columns: auto;
+}
+.first-services > *:nth-child(1){
+    -ms-grid-row:1;
+    -ms-grid-column:1;
+}
+.first-services > *:nth-child(2){
+    -ms-grid-row:2;
+    -ms-grid-column:1;
+}
+.mpc-services{
+    background:none;
+}
+.marketing-services{ 
+    width:100%;
+ }
+.last-services{
+    height: 80vh;
+    background:url(../img/services-bg3.svg);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    
+}
 }
