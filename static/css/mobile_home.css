@@ -154,3 +154,9 @@ p{
     margin-left:4vw;
     margin-right: 4vw;
 }
+#intro p{
+    color:white;
+}
+#intro h1{
+    color:#e1e1e1;
+}
