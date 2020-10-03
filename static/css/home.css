@@ -240,3 +240,169 @@ p{
         width: 100%;
     }
 }
+
+#intro p{
+    color:white;
+}
+#intro h1{
+    color:#e1e1e1;
+}
+
+@media (max-width:720px){
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+
+body{
+    background:gray;
+    all:unset;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto;
+    grid-template-columns: auto;
+    -ms-grid-rows:auto auto;
+    grid-template-rows:auto auto;
+    width:100%;
+
+}
+
+
+body > *:nth-child(1){
+    -ms-grid-row:1;
+    -ms-grid-column:1;
+
+}
+
+
+body > *:nth-child(2){
+    -ms-grid-row:2;
+    -ms-grid-column:1;
+
+}
+.social{
+    display: none;
+}
+.logo-grid{
+    height:100vh;
+    background:url(../img/bg3.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:0;
+    padding:0;
+}
+.main-grid{
+    all:unset;
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+    margin: 0;
+    padding:0;
+    overflow: auto;
+}
+.home-grid{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 50% 50%;
+    grid-template-rows: 50% 50%;
+    -ms-grid-columns: auto;
+    grid-template-columns: auto;
+    background:#333333;
+    overflow: hidden;
+}
+.home-grid > *:nth-child(1){
+    -ms-grid-row:1;
+    -ms-grid-column:1;
+}
+.home-grid > *:nth-child(2){
+    -ms-grid-row:2;
+    -ms-grid-column:1;
+}
+.home-info{
+    /*
+    display:grid;
+    grid-template-rows: 65% 35%;
+    grid-auto-columns: auto;
+    */
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:column;
+            flex-direction:column;
+    padding-left:10%;
+    height:100vh;
+
+}
+.info h1{
+    font-size:3vh;
+    color:inherit;
+}
+p{
+    font-size:3vh;
+    color:#ffffff;
+}
+.btn{
+    height:150%;
+    width:50%;
+    font-size:3vh;
+    color:white;
+}
+#pc-icon{
+    display: block;
+    width:75%;
+    height:100%;
+    background-size:contain;
+    background-position:center;
+}
+.logo{
+    height: 80%;
+    margin-top:10%;
+    width: 100%;
+    background:url(../img/shaded_logo1.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#ig-logo{
+    display: block;
+    background:url(../img/mobile-main-ig.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:7vh;
+    width:40px;
+    margin-top: 1vh;
+    margin-left:4vw;
+    margin-right: 4vw;
+}
+#twi-logo{
+    display: block;
+    background:url(../img/mobile-main-twi.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:7vh;
+    width:40px;
+    margin-top: 1vh;
+    margin-left:4vw;
+    margin-right: 4vw;
+}
+}
