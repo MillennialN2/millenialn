@@ -16,7 +16,6 @@ body{
     margin:0;
     width: 100%;
     height:100%;
-    color:white;
 }
 body > *:nth-child(1){
     -ms-grid-row: 1;
@@ -88,9 +87,6 @@ body > *:nth-child(1){
     -ms-grid-columns: auto;
     grid-template-columns: auto;
        
-}
-h1{
-    color:#ffffff;
 }
 .home-grid > *:nth-child(1){
     -ms-grid-row: 1;
@@ -190,9 +186,6 @@ h1{
             align-items:center;
     margin:1vh;
 }
-p{
-    color:white;
-}
 .btn{
     display: block;
     width:30%;
@@ -260,9 +253,9 @@ p{
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
 */
+
 a{
     text-decoration: none;
-    color:inherit;
 }
 
 
@@ -276,7 +269,6 @@ body{
     -ms-grid-rows:auto auto;
     grid-template-rows:auto auto;
     width:100%;
-    color:white;
 }
 
 
@@ -351,19 +343,11 @@ body > *:nth-child(2){
     height:100vh;
 
 }
-#intro p{
-    color:white;
-}
-#intro h1{
-    color:#e1e1e1;
-}
 .info h1{
     font-size:3vh;
-    color:inherit;
 }
 p{
     font-size:3vh;
-    color:#ffffff;
 }
 .btn{
     height:150%;
