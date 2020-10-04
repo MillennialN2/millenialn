@@ -7,10 +7,12 @@ body{
     grid-template-columns: auto;
     padding:0;
     margin:0;
-    background:#333333;
+    background:url(../img/bg3.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 #title{
-    background:#333333;
+    background:#33333399;
     text-align:center;
     padding:2.5em 2em;
     margin:0;
