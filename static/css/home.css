@@ -11,7 +11,10 @@ body{
 }
 .logo-grid{
     height: 100vh;
-    background:#333333;
+    background:url(../img/bg3.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 .social{
     display: none;
@@ -36,6 +39,7 @@ body{
 }
 section{
     background:#333333;
+    padding:0 2em;
 }
 section h1{
     font-size: 0.85em;
@@ -46,7 +50,37 @@ section p{
     color:#e1e1e1;
 }
 .home-footer{
-    display: block;
+    display: grid;
+    grid-template-columns: auto auto;
     height:10vh;
     background:#333333;
+    justify-content: center;
+    align-content: center;
+}
+#ig-logo{
+    display: block;
+    background:url(../img/mobile-main-ig.svg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:6vh;
+    width:6vh;
+    margin: 1.5vh 2vw;
+}   
+#twi-logo{
+    display:block;
+    background:url(../img/mobile-main-twi.svg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:6vh;
+    width:6vh;
+    margin: 1.5vh 2vw;
+}
+
+.btn{
+    display: block;
+    background:#00413b;
+    border:none;
+    height: 2em;
+    width:10em;
+    color:white;
 }
