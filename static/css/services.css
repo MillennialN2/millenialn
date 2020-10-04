@@ -1,0 +1,31 @@
+.nav{
+    display: none;
+}
+body{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: auto;
+    padding:0;
+    margin:0;
+}
+#title{
+    background:#333333;
+    text-align:center;
+    padding:0;
+    margin:0;
+}
+section{
+    padding:3em 3em;
+}
+.web-service{
+    background:#232323;
+}
+.mpc-service{
+    background:#a9a9a9;
+}
+.market-service{
+    background:#ffffff;
+}
+.footer{
+    background:#333333;
+}
