@@ -52,6 +52,7 @@ section h1{
 section p{
     font-size: 0.7em;
     color:#e1e1e1;
+    margin: 2em 0;
 }
 section a{
     text-decoration: none;
