@@ -48,6 +48,10 @@ section p{
     font-size: 0.7em;
     color:#e1e1e1;
 }
+section a{
+    text-decoration: none;
+    
+}
 .home-footer{
     display: grid;
     grid-template-columns: auto auto;
@@ -77,7 +81,7 @@ section p{
 
 .btn{
     display: block;
-    background:#00413b;
+    background:#177660;
     border:none;
     height: 2.5em;
     width:15em;
