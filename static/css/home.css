@@ -14,7 +14,6 @@ body{
     background:url(../img/bg3.JPG);
     background-size: cover;
     background-repeat: no-repeat;
-    
 }
 .social{
     display: none;
@@ -80,7 +79,7 @@ section p{
     display: block;
     background:#00413b;
     border:none;
-    height: 2em;
-    width:10em;
+    height: 2.5em;
+    width:15em;
     color:white;
 }
