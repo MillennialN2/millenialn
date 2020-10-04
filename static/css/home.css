@@ -1,3 +1,21 @@
+@font-face{
+    font-family: League;
+    src:url(../font/LeagueSpartan-Bold.otf);
+}
+@font-face{
+    font-family:LibreR ;
+    src:url(../font/LibreBaskerville-Regular.ttf);
+}
+@font-face{
+    font-family: LibreI;
+    src:url(../font/LibreBaskerville-Italic.ttf);
+}
+@font-face{
+    font-family: LibreB;
+    src:url(../font/LibreBaskerville-Bold.ttf);
+}
+
+
 body{
     display: grid;
     grid-template-rows: auto auto auto auto;
@@ -47,10 +65,12 @@ section{
 }
 section h1{
     font-size: 0.85em;
+    font-family: League;
     color:white;
 }
 section p{
-    font-size: 0.7em;
+    font-size: 0.5em;
+    font-family: LibreR;
     color:#e1e1e1;
 }
 section a{
@@ -87,6 +107,7 @@ section a{
 .btn{
     display: block;
     background:#177660;
+    font-family: LibreB;
     border:none;
     height: 2.5em;
     width:15em;
