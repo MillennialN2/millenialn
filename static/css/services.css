@@ -1,3 +1,20 @@
+@font-face{
+    font-family: League;
+    src:url(../font/LeagueSpartan-Bold.otf);
+}
+@font-face{
+    font-family:LibreR ;
+    src:url(../font/LibreBaskerville-Regular.ttf);
+}
+@font-face{
+    font-family: LibreI;
+    src:url(../font/LibreBaskerville-Italic.ttf);
+}
+@font-face{
+    font-family: LibreB;
+    src:url(../font/LibreBaskerville-Bold.ttf);
+}
+
 .nav{
     display: none;
 }
@@ -22,17 +39,85 @@ body{
     border: 2px solid white;
 }
 section{
-    padding:3em 3em;
+    padding:2em 2em;
+}
+section h2{
+    font-family: League;
+    font-size: 0.9em;
+}
+section p{
+    font-family: LibreR;
+    font-size: 0.65em;
 }
 .web-service{
     background:#232323;
+    color:white;
 }
 .mpc-service{
     background:#a9a9a9;
+    color:#222222;
+}
+.mpc-service h2{
+    color:#00413b;
+}
+.marketing-service{
+    background:white;
+    color:#333333;
+}
+.marketing-service h2{
+    color:#00413b;
+}
+#web-icon{
+    display: block;
+    background:url(../img/web-icon.svg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    height: 20vh;
+    width:22vh;
+}
+#mpc-icon{
+    display: block;
+    background:url(../img/mpc-icon.svg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 20vh;
+    width:22vh;
+}
+#marketing-icon{
+    display: block;
+    background:url(../img/market-icon.svg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    height: 20vh;
+    width:22vh;
 }
 .market-service{
     background:#ffffff;
 }
 .footer{
-    background:#333333;
+    display: grid;
+    grid-template-rows: 20% 50% 30%;
+    background:#000000;
+    color:white;
+    padding: 1em 1em;
+}
+#twi-logo{
+    background:url(../img/mobile-main-twi.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 5vh;
+}
+#ig-logo{
+    background:url(../img/mobile-main-ig.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:5vh;
+
+}
+.social-footer{
+    display:grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-content: center;
 }

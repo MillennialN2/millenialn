@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="142mm"
-   height="88mm"
-   viewBox="0 0 142 88"
+   width="113mm"
+   height="103mm"
+   viewBox="0 0 113 103"
    version="1.1"
    id="svg1265"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="-591.42857"
-     inkscape:cy="560"
+     inkscape:cx="-58.571427"
+     inkscape:cy="445.71429"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -52,9 +52,9 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-209)">
+     transform="translate(0,-194)">
     <g
-       transform="matrix(0.7918545,0,0,0.75917275,-171.62682,1444.054)"
+       transform="matrix(0.65652681,0,0,0.93120276,-144.66197,1706.4491)"
        id="g1509">
       <ellipse
          ry="54.932182"

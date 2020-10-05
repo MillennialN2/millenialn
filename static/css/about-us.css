@@ -1,0 +1,24 @@
+.nav{
+    display:none;
+}
+body{
+    display: grid;
+    grid-template-rows:auto auto auto auto auto auto auto;
+    padding:0;
+    margin:0;
+}
+section{
+    padding: 2em 2em;
+}
+.who { 
+    background:#111111;
+    color:white;
+}
+.aim{
+    background: #a3a3a3;
+    color:black;
+}
+.why{
+    background:#333333;
+    color:white;
+}
