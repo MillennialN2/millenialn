@@ -6,6 +6,16 @@ body{
     grid-template-rows:auto auto auto auto auto auto auto;
     padding:0;
     margin:0;
+    background:url(../img/bg3.JPG);
+}
+#title{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height:80vh;
+    color:#333333;
+    margin:1vh ;
+    background:#ffffff;
 }
 section{
     padding: 2em 2em;
