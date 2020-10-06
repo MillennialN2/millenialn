@@ -8,14 +8,25 @@ body{
     margin:0;
     background:url(../img/bg3.JPG);
 }
-#title{
+#logo{
+    display: block;
+    background:url(../img/logo.svg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 60vw;
+}
+.title{
     display: grid;
-    align-items: center;
+    grid-template-rows:auto auto;
     justify-items: center;
-    height:80vh;
-    color:#333333;
-    margin:1vh ;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 80vh;
     background:#ffffff;
+    margin: 1vh;
+
 }
 section{
     padding: 2em 2em;
